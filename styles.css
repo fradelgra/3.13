@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(200 71% 21%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+#container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #8da9c5;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Encabezado */
+h1 {
+    font-size: 24px;
+    color: #333333;
+    border-bottom: 2px solid #2C3E50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Secciones */
+h2 {
+    font-size: 18px;
+    color: #2C3E50;
+    background-color: hwb(200 48% 38%);
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2C3E50;
+    padding-bottom: 5px;
+}
+
+h3 {
+    background-color: hwb(200 60% 30%);
+    color: hwb(200 35% 55%);
+    font-size: 130%;
+    font-style: italic;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid;
+}
+
+/* Texto pequeño */
+small {
+    display: block;
+    font-size: 12px;
+    color: #6C757D;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Idiomas */
+.left-align {
+    text-align: left;
+}
+
+.datos{
+    color: blue;
+}
+
+address {
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
